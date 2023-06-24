@@ -1,11 +1,11 @@
 document.getElementById('btn1').onclick = ()=>{
-  alert('Hola Mundo Equipo Uno');
+  alert('Cargando Info Rick & Morty ');
   console.log(datos);
 }
 
 const datos = [];
-const url = "https://rickandmortyapi.com/api/character"
-function llamar() {
+
+function llamarApi(url) {
   
     fetch(url)
     .then((res) => res.json())
@@ -14,4 +14,4 @@ function llamar() {
     });
 }
 
-llamar();
+llamarApi("https://rickandmortyapi.com/api/character");
