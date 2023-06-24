@@ -8,11 +8,9 @@ function llamarApi(url) {
         .then((res) => res.json())
         .then((data) => {
             datos.push(data.results);
-            datos.forEach(element => {
-                console.log(element)
-                crearElemento(element[0])
+            datos[0].forEach(element => {
+                crearElemento(element)
             });
-
         });
 }
 
