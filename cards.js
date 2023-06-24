@@ -25,6 +25,7 @@ function crearElemento(element){
     image.src = element.image;
     h3.textContent = element.name;
     p.textContent = element.species;
+    div.classList.add('card')
     div.appendChild(image);
     div.appendChild(h3);
     div.appendChild(p);
