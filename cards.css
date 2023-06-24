@@ -7,11 +7,17 @@
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
+  background-color: black;
+  color: white;
   > li {
     width: 33.3%;
-  }
-  
+  }  
 }
+
+div{
+    padding: 2%;
+}
+
 @media only screen and (min-widht: 600px) {
   .container {
     flex-direction: row;
@@ -19,7 +25,6 @@
 
   .cards {
     border-radius: 5px 5 5 5;
-    border: px solid red;
-
+   
   }
 }
