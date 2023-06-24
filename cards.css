@@ -1,0 +1,24 @@
+* {
+  font-family: Rubik;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: chartreuse;
+  list-style: none;
+  > li {
+    width: 33.3%;
+  }
+  
+}
+@media only screen and (min-widht: 600px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .cards {
+
+  }
+}
