@@ -1,0 +1,12 @@
+*{
+    justify-content: center;
+    align-items: center;
+  
+}
+.btn {
+    background-color: aquamarine;
+    font-size: 18px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
